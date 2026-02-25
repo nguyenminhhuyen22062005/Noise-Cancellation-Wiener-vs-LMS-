@@ -1,0 +1,6 @@
+Link file code python:https://drive.google.com/file/d/11JJITH0HThnUr7dB5c_0vOGxihqs_gFM/view?usp=drive_link
+Các bước chạy code:
+1.Tải và giải nén file zip trong link vào file Python của máy. File sẽ bao gồm 2 code python Wiener với LMS, và 3 file audio. "Voice_8k.wav" là file chứa tín hiệu gốc, "observed_y.wav" chứa tín hiệu bị nhiễu, "Fan_8k.wav" chứa tín nhiệu nhiễu.
+2.Đảm bảo máy đã được cài các thư viện cho python sau: numpy, soundfile, scipy, matplotlib
+3.Sau khi chạy code của Wiener, 1 file "estimated.wav" sẽ được tạo, chứa tín hiệu sau khi lọc Wiener
+4.Sau khi chạy code của LMS, 1 file "output_lms.wav" sẽ được tạo, chứa tín hiệu sau khi lọc LMS
